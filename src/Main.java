@@ -1,7 +1,11 @@
 import OopsConcepts.*;
 import Exception.*;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
+import static CollectionLearn.CollectionsLearns.*;
 import static Exception.ExceptionLearn.runningException;
 
 public class Main {
@@ -16,7 +20,8 @@ public class Main {
 //            v = new car();
 //            v.run();
 //        }
-        runningException();
+        //runningException();
+        runCollection();
 
         }
 }
